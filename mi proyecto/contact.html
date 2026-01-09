@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="LOGO.png">
+</head>
+<body>
+    <nav>
+        <a href="home.html">
+        <img class="imagen" src="LOGO.png" alt="">
+        </a>
+        <ul class="navegador">
+            <li class="navegador__item">
+                <a href="home.html" class="navegador__link" >HOME</a>
+            </li>
+            <li class="navegador__item">
+                <a href="aboutus.html" class="navegador__link">ABOUT US</a>
+            </li>
+            <li class="navegador__item">
+                <a href="#contact" class="navegador__link">CONTACT</a>
+            </li>
+            <li class="navegador__item__sus">
+                <a href="#" class="navegador__link__sus">SUBSCRIBE</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="header">
+            <div class="overlay"></div>
+            <h1 class="header__title">CASIC: Building equipment and dreams</h1>
+    </header>
+    <main>
+        <form class="formulario">
+            <h2 class="formulario__titulo">DEJA TU MENSAJE</h2>
+            <fieldset class="formulario__fieldset">
+                <legend class="formulario__legend">Tu infromacion</legend>
+                <div class="formulario__input">
+                    <label class="formulario__label" for="Nombre"> Nombre </label>
+                    <input class="formulario__inp" id="Nombre" type="text" placeholder="Santiago">
+                    <label class="formulario__label" for="apellido">Apellido</label>
+                    <input class="formulario__inp" type="text" id="apellido" placeholder="Delgado">
+                    <label class="formulario__label" for="edad">Institucion Educativa</label>
+                    <input class="formulario__inp" type="number" id="edad" placeholder="Colegio Philadelphia Internacional">
+                    <label class="formulario__label" for="correo"> Email </label>
+                    <input class="formulario__inp" id="correo" type="email" placeholder="pepitoperez@email.com">
+                <label class="formulario__label" for="referente">¿Que rol cumples?</label>
+                    <input class="formulario__inp" list="referente" name="referente">
+                    <datalist class="formulario__datalist" id="referente" name="type_of_user">
+                        <option class="formulario__option" value="Estudiante"> Estudiante del programa CASIC<option>
+                        <option class="formulario__option" value="Docente"> Docente participe del curso CASIC</option>
+                        <option class="formulario__option" value="Cliente"> Colegio o directivo interesado</option>
+                        <option class="formulario__option" value="Otro"> Otro tipo de persona interesada en el programa</option>
+                    </datalist>
+                </label>
+                    <label class="formulario__label1" for="mensaje"> Deja tu mensaje
+                        <textarea class="formulario__textarea" id="mensaje" rows="8" placeholder="Escribe algo aqui.">
+                        </textarea>
+                    </label>
+                    <label class="formulario__label"> Acepto terminos y condiciones
+                        <input type="checkbox" class="checkbox">
+                </label>
+                <button class="enviar">ENVIAR</button>
+                </div>
+            </fieldset>
+    </form>
+        <div class="contact" id="contact">
+            <h3 class="contact__titulo">¿Quieres implementar CASIC en tu institución?</h3>
+            <p class="contact__p">Si deseas fortalecer los laboratorios de ciencias, integrar tecnología educativa y ofrecer una experiencia de aprendizaje innovadora, CASIC puede adaptarse a tu institución.</p>
+            <a class="contact__link" href="">Contáctanos para recibir una propuesta personalizada</a>
+            
+            <a class="contact__link" href="">Conoce cómo CASIC puede integrarse a tu plan académico</a>
+        </div>
+    </main>
+        <footer>
+        <div class="footer__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi eum quam corporis eaque eos alias vel odit quaerat sed, quos ipsum, quod laborum repellat id provident, enim a maiores?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ab iure laudantium, repellat necessitatibus natus dignissimos, voluptate quam ea quaerat, debitis itaque eos! Optio perferendis laudantium sunt odio! Corporis, repellendus.
+        Lorem ipsum dolor sit amet, consectetur adipisicing 
+            
+        </div>
+        <div class="footer__info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam explicabo deserunt, quo sint ipsa velit recusandae, accusantium culpa suscipit impedit at incidunt aspernatur sunt neque molestiae 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet nostrum molestias sunt, maxime voluptatum alias sed quasi quae, et explicabo porro corrupti possimus assumenda reprehenderit asperiores in optio totam maiores.
+        </div>
+        <div class="footer__links">
+            conocenos en .........
+        </div>
+    </footer>
+</body>
+</html>
